@@ -1,0 +1,4 @@
+name: qt3
+dependencies:
+  - bokeh
+  - django

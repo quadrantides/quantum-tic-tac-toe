@@ -1,0 +1,171 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+label.label-file {
+text-align: center;
+}
+
+span.version {
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-size: 14px;
+}
+
+a.version {
+    margin-top: 6px;
+    margin-right: 100px;
+    float: right;
+    font-size: 16px;
+}
+span.dates {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-right: 50px;
+    float: right;
+    font-size: 11px;
+}
+h4.version {
+    margin-right: 20px;
+    padding-top: 0.75em;
+    padding-bottom: 0.25em;
+    float: right;
+    font-size: 14px;
+}
+
+span.selection {
+    margin-left: 20px;
+    padding-top: 0.75em;
+    padding-bottom: 0.25em;
+    float: left;
+    font-size: 14px;
+}
+
+div.latest-changes {
+    display:block;
+    margin-top: 50%;
+}
+
+.main {
+    height:100%;
+}
+
+.presentation {
+    width:75%;
+    height:100%;
+    margin-left:2%;
+    padding:0pt 15pt 0pt 15pt;
+    text-align:justify;
+    line-height:160%;
+    font-size:14pt;
+    font-family:arial;
+    float:left;
+
+}
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.bk-root{
+    display:inline-block;
+    float:left;
+}
+
+.startForm{
+    width:15%;
+    float:left;
+    margin-left:10%;
+}
+
+.startButton {
+    margin-top: 10%;
+}
+
+.startButton button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.startButton button:hover {
+    opacity: 0.8;
+}
+
+
+div.login-image {
+    margin-top: 5%;
+    opacity:0.5;
+}
+
+label.selection-type {
+    margin-left: 20px;
+}
+label.selection {
+   margin-right: 20px;
+   width: 50px;
+   color: #bd7302;
+}
+
+div.upload {
+   display:block;
+   height: 90%;
+  }
+
+form.upload-form {
+    margin-left: 2px;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    text-align: left;
+}
+
+div.plot {
+    float:left;
+}
+
+
+input[type=file] {
+    font-size: 16px;
+    padding: 0px 20px;
+    border: none;
+    cursor: pointer;
+    height:100%;
+    width:80%;
+}
+
+input[type=file] button:hover {
+    opacity: 0.8;
+}
+
+.bk-root .bk-bs-btn-success:focus {
+color: #FDFEFE;
+background-color: #21618C;
+border-color: #21618C;
+}
+
+user-message {
+color: #c7fe9c;
+}
+user-message-winner {
+text-color: #21618C;
+font-size: 20px;
+}

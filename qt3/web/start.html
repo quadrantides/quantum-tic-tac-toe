@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <link href="../static/style.css" rel="stylesheet" type="text/css" />
+        <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.3/FileSaver.min.js"></script>
+    </head>
+
+    <body>
+        <div id="header" style="width:100%;height:7%;background-color:#D4DCE9;">
+            <div style="display: inline-block;margin-left:33%;margin-top:0.5%; margin-bottom:0%; width:67%;">
+                <div >
+                    <b>
+                        <div style="display: inline-block;font-variant:small-caps;font-family:arial;font-size:24pt;margin-left:2%; padding-top:0px;">Quantum tic-tac-toe</div>
+                    </b>
+                    <div style="display: inline-block;font-family:arial;font-size:14pt;margin-left:10px;margin-top:3px; width:50%;">
+                        Game
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="width:100%;margin-left:5%;height:40%">
+            <form class="startForm" style="width:100%;" action="/qt3/play" method="post">
+                <img width=7% style="vertical-align:top;float: left;margin-top:1%" height=7% src="../static/QuantumTicTacToeUncollapsed.png">
+                <div style="display:inline-block;margin-right:2%;margin-left:5%;">
+                    <h3>Let's play</h3>
+                </div>
+                <div style="display:inline-block;margin-right:2%;">
+                    <div class="startButton">
+                        <button type="submit">Start</button>
+                    </div>
+                </div>
+
+                {% module xsrf_form_html() %}
+
+            </form>
+            <div class="presentation">
+                <hr>
+                    <h3>About the design</h3>
+                <hr>
+                            <div style="float:left;">
+                <div style="font-size:16px;margin-top:2%;">
+                    <p>
+                        This <strong>work</strong> has been designed as a python REST API using <strong>Tornado</strong> with <strong>embedded Bokeh widgets</strong>.
+                    </p>
+                    <p>
+                         I designed a <strong>mockup</strong>
+                    </p>
+                    <ul>
+                        <li>The advantage of this strategy is a saving time concerning the frontend developments.</li>
+                        <li>The saved time was spent to develop the essential algorithms used by the backend to provide the game rules requirements.</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </body>
+</html>
